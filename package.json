@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "nuxt prepare",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-signature": "^1.2.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.31.0",
+    "@playwright/test": "^1.28.0",
+    "@types/cookie-signature": "^1.0.4",
+    "@unocss/nuxt": "^0.46.5",
+    "eslint": "^8.27.0",
+    "nuxt": "^3.0.0"
+  }
+}
